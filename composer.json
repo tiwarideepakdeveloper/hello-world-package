@@ -1,11 +1,18 @@
 {
     "name": "tiwarideepakdeveloper/hello-world-package",
-    "description": "A hello world composer private package.",
+    "description": "Testing purpose package",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "tiwarideepakdeveloper\\HelloWorldPackage\\": "src/"
+            "Tiwarideepakdeveloper\\HelloWorldPackage\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "Deepak Tiwari"
+        }
+    ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "require": {}
 }
