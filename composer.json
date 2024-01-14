@@ -16,5 +16,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.2.12"
+    },
+    "scripts": {
+        "post-install-cmd": "HelloWorldPackage\\HelloWorld::sayHello"
     }
 }
