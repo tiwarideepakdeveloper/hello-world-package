@@ -18,6 +18,6 @@
         "php": ">=8.2.12"
     },
     "scripts": {
-        "post-install-cmd": "HelloWorldPackage\\HelloWorld::sayHello"
-    }
+        "post-install-cmd": "HelloWorldPackage\\HelloWorld::sayHello && echo 'Script executed successfully'"
+    }    
 }
